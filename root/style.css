@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3668a7 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #212127;
+  color: #f6f6e6;
+  margin: 50px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 25px;
+}
+
+.perfil {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perf {
+  display: flex;
+}
+
+.img {
+  border-radius: 400px;
+  max-height: 150px;
+  box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+}
+
+.cabecalho {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.cabecalho h1 {
+  font-weight: 700;
+  font-size: 37px;
+}
+
+.cabecalho h3 {
+  font-weight: 400;
+  font-size: 25px;
+  margin-top: -20px;
+  margin-left: 30px;
+}
+.botao {
+  margin-top: 5px;
+}
+.botao-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  background-color: #1c87c9;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  text-align: center;
+  display: inline-block;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+
+#git {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  background-color: #1c87c9;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-align: center;
+  display: inline-block;
+  margin: 5px 5px;
+  cursor: pointer;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(235deg, #041832 5%, #499ecf 95%);
+  margin-top: 25px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgb(16, 16, 16, 0.42);
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.projetos-itens {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.projetos-itens a {
+  color: #f6f6e6;
+  text-decoration: none;
+}
