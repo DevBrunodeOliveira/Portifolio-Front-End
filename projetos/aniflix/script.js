@@ -37,7 +37,7 @@ function adicionar() {
 function remover() {
   link = document.getElementById("url").value;
   x = animes.indexOf(link);
-  if (x < 0 || link != "") {
+  if (x < 0 || link == "") {
     document.getElementById("repetido").innerHTML = "Titulo Não Encontrado!";
   } else {
     document.getElementById("repetido").innerHTML = "Titulo Removido!";
