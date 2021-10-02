@@ -43,6 +43,7 @@ function remover() {
     document.getElementById("repetido").innerHTML = "Titulo Removido!";
     lista.removeChild(lista.childNodes[x]);
     animes.splice(x, 1);
+    i--
   }
   document.getElementById("url").value = "";
   document.getElementById("nome").value = "";
