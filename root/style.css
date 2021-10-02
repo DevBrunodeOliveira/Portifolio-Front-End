@@ -3,6 +3,8 @@
 body {
   background: linear-gradient(236.85deg, #041832 27.26%, #3668a7 96.03%);
   font-family: "Roboto", sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .container {
