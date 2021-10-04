@@ -34,9 +34,27 @@ body {
   right: 15px;
 }
 
+#listaAnimes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#listaAnimes div {
+  max-width: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
 #listaAnimes img {
   margin: 10px;
   max-height: 250px;
+}
+
+#listaAnimes p {
+  margin: 0px;
+  max-height: 250px;
+  text-align: center;
 }
 
 .form-wrapper {
