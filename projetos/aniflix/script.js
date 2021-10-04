@@ -1,7 +1,7 @@
 var lista = document.getElementById("listaAnimes");
 var link = document.getElementById("url").value;
 var animes = [
-  "https://cdn.myanimelist.net/images/anime/1706/115694.jpg",
+  "https://cdn.myanimelist.net/images/anime/1240/118272.jpg",
   "https://cdn.myanimelist.net/images/anime/1252/115539.jpg",
   "https://cdn.myanimelist.net/images/anime/1741/117622.jpg",
   "https://cdn.myanimelist.net/images/anime/1811/115541.jpg",
@@ -15,7 +15,7 @@ var nomeAnimes = [];
 var x = animes.indexOf(link);
 
 for (var i = 0; i < animes.length; i++) {
-  lista.innerHTML += "<img src=" + animes[i] + ">";
+  lista.innerHTML += "<div><img src=" + animes[i] + ">" + "<p>" + nomeAnimes[i] +"</p></div>";
 }
 
 function adicionar() {
