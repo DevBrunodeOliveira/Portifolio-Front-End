@@ -32,7 +32,7 @@ function adicionar() {
   if (x < 0 && link != "") {
     animes.push(link);
     for (i; i < animes.length; i++) {
-      lista.innerHTML += "<img src=" + animes[i] + ">";
+      lista.innerHTML += "<div><img src=" + animes[i] + ">" + "<p>" + nomeAnimes[i] +"</p></div>";
       document.getElementById("repetido").innerHTML = "";
     }
   } else {
