@@ -1,4 +1,5 @@
 var lista = document.getElementById("listaAnimes");
+var nome = document.getElementById("nome").value;
 var link = document.getElementById("url").value;
 var animes = [
   "https://cdn.myanimelist.net/images/anime/1240/118272.jpg",
@@ -28,9 +29,11 @@ for (var i = 0; i < animes.length; i++) {
 
 function adicionar() {
   link = document.getElementById("url").value;
+  nome = document.getElementById("nome").value;
   x = animes.indexOf(link);
   if (x < 0 && link != "") {
     animes.push(link);
+    nomeAnimes.push(nome);
     for (i; i < animes.length; i++) {
       lista.innerHTML += "<div><img src=" + animes[i] + ">" + "<p>" + nomeAnimes[i] +"</p></div>";
       document.getElementById("repetido").innerHTML = "";
